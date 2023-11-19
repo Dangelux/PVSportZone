@@ -14,6 +14,7 @@ import { useForm, useField } from 'vee-validate'
         auth.login(values)
     })
 
+
 </script>
 
 <template>
@@ -38,7 +39,7 @@ import { useForm, useField } from 'vee-validate'
 
         <v-alert
             v-if="auth.hasError"
-            class="my-5"
+            class="my-5 alerta"
             type="error"
             :title="auth.errorMsg"
         ></v-alert>
