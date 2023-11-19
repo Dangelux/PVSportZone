@@ -13,7 +13,8 @@ export const useCouponStore = defineStore('coupon', () => {
 
     const VALID_COUPONS = [
         { name: '10DESCUENTO', discount:.10 }, 
-        { name: '20DESCUENTO', discount:.20}
+        { name: '20DESCUENTO', discount:.20},
+        { name: 'NOVDESCUENTO', discount:.15}
     ]
 
     watch(discountPercentage, ()=> {
